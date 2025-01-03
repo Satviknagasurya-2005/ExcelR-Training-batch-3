@@ -1,9 +1,9 @@
 import java.util.*;
-
 class user2{
+
+    private static final Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         boolean a = true;
-        Scanner sc = new Scanner(System.in);
         while(true){
             System.out.print("Enter username: ");
             String id = sc.next();
@@ -16,5 +16,9 @@ class user2{
                 System.out.println("credentials does not match. Please try again.");
             }
         }
+    }
+
+    public static Scanner getSc() {
+        return sc;
     }
 }
