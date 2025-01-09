@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Demo020 {
     public static void main(String[] args) {
-        Demo021 demo = new Demo021();
+        Demo020 demo = new Demo020();
         demo.fizbuz();
     }
 
