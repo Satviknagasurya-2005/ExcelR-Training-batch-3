@@ -8,7 +8,7 @@ public class Demo068 {
             if(arr[i] % 2 ==0){
                 count ++;
             }
-           
+          
         }
         System.out.println("the final count of the even numbers in an array: "+count);
     }
